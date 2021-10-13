@@ -1,2 +1,6 @@
 # sbg_ros_simu
-ROS IMU emulator (usage with turtlebot3 in gazebo)
+
+## Overview
+ROS simulation package for SBG IMU.<br />
+
+This driver is meant to convert ROS standard IMU messages to SbgECom messages in order to test the driver.

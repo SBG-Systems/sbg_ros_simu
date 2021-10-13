@@ -1,0 +1,7 @@
+<launch>
+  <node name="sbg_simu" pkg="sbg_simu" type="sbg_simu" output="screen">
+  </node>
+  <node name="sbg_device" pkg="sbg_driver" type="sbg_device" output="screen">
+    <rosparam command="load" file="$(find sbg_simu)/config/sbg_simu.yaml" />
+  </node>
+</launch>
